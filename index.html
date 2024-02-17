@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo | Indexed DB</title>
+    <script src="app.js" defer></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>TODO APP</h1>
+      <section>
+        <aside class="add">
+          <h2>Add Todo</h2>
+          <form>
+            <div class="input-container">
+              <input type="text" id="input" required="" class="title-input" />
+              <label for="input" class="label">Title</label>
+              <div class="underline"></div>
+            </div>
+
+            <div class="input-container">
+              <input type="text" id="input" required="" class="desc-input" />
+              <label for="input" class="label">Description</label>
+              <div class="underline"></div>
+            </div>
+
+            <button class="pushable">
+              <span class="shadow"></span>
+              <span class="edge"></span>
+              <span class="front"> Save </span>
+            </button>
+          </form>
+        </aside>
+        <aside class="view">
+          <h2>Todo</h2>
+          <div class="todo-list">
+            <ul></ul>
+          </div>
+        </aside>
+      </section>
+    </div>
+  </body>
+</html>
